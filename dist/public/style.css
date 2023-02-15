@@ -43,6 +43,9 @@
     font-weight: bold;
     overflow: hidden;
     white-space: nowrap; /* Запрещаем переносы слов */
+}
+
+.track-title{
     animation: 5s anim1 infinite linear;
 }
 
