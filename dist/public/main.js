@@ -16,7 +16,7 @@ HFS.onEvent('afterMenuBar', () => `
     <div id='player'>
         <audio controls></audio>
         <div>
-            <span class='player-title'></span>
+            <span id='player-title'></span>
             <button onclick="play()">✕</button>
         </div>
     </div>
