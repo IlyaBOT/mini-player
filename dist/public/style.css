@@ -19,11 +19,38 @@
 @media (min-width: 1200px) {
     #player {
         position: fixed;
-        left: 0;
-        top: 0;
+        top: auto;
+        bottom: 2px;
+        left: 2px;
         padding: .5%;
-        width: calc((100vw - 800px) / 2 - .5em);
+        min-width: calc((100vw - 800px) / 1.2);
         box-sizing: border-box;
-        background: var(--faint-contrast);
+        background: #0f11117d;
+        border-radius: 8px;
+        border: 1px solid var(--faint-contrast);
+        z-index: 1;
+    }
+}
+
+#player-title {
+    color: var(--button-text);
+    padding: .5em 1em;
+    text-decoration: none;
+    border-radius: .3em;
+    vertical-align: middle;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap; /* Запрещаем переносы слов */
+    animation: 5s anim1 infinite linear;
+}
+
+@keyframes anim1 {
+    from {
+       background-position: 0 0;
+    }
+    to {
+       background-position: -250px 0;
     }
 }
