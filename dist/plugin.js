@@ -1,5 +1,5 @@
-exports.version = 1.1
-exports.description = "Mini audio player by IlyaBOT"
+exports.version = 1.2
+exports.description = "Mini audio player [Reworked simple-player by IlyaBOT]"
 exports.apiRequired = 5
 exports.repo = "IlyaBOT/mini-player"
 exports.frontend_css = 'style.css'
