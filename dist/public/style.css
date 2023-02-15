@@ -1,0 +1,29 @@
+.play-button {
+    font-size: 0.7em;
+    padding: 0.2em 0.4em;
+    margin-left: 0.4em;
+    vertical-align: bottom;
+}
+.play-button::before {
+    content: '▶';
+}
+
+#player {
+    display: none;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#player button { margin-right: .5em;  }
+@media (min-width: 1200px) {
+    #player {
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: .5%;
+        width: calc((100vw - 800px) / 2 - .5em);
+        box-sizing: border-box;
+        background: var(--faint-contrast);
+    }
+}
