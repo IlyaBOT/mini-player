@@ -42,11 +42,11 @@
     font-size: 20px;
     font-weight: bold;
     overflow: hidden;
-    white-space: nowrap; /* Запрещаем переносы слов */
 }
 
-.track-title{
-    animation: 5s anim1 infinite linear;
+/* I don't know why it doesn't work :( */
+/* .track-title{
+    animation: 5s anim1 infinite linear; 
 }
 
 @keyframes anim1 {
@@ -57,3 +57,4 @@
        background-position: -250px 0;
     }
 }
+*/
