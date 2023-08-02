@@ -1,5 +1,5 @@
 HFS.onEvent('afterEntryName', ({ entry }) =>
-    /\.(mp3|wav|aac|ogg|flac)$/.test(entry.n) &&
+    /\.(mp3|wav|aac|ogg|flac|m4a)$/.test(entry.n) &&
         `<button class='play-button' onclick='play("${entry.n}")' />`)
 
 function play(name = '') {
