@@ -1,5 +1,5 @@
-# **Mini Audio Player for [HFS](https://github.com/rejetto/hfs)**
+# **Mini Audio Player for [HFS 3](https://github.com/rejetto/hfs)** [*OUTDATED*]
 Reworked HFS [Simple audio player](https://github.com/rejetto/simple-player)
 
 -------------------------------------
-*I plan to completely rewrite the player, but so far I have no idea how to do it.*
+*The plugin no longer makes sense, because its functionality has been added to HFS*
